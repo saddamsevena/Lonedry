@@ -1,63 +1,64 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://github.com/rellisapk/Lonedry" target="_blank"><img src="https://i.ibb.co/7WrSgvW/lonedry-white.png" width="400"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+
 </p>
 
-## About Laravel
+## About Lonedry
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplikasi Lonedry merupakan sebuah aplikasi untuk memesan laundry yang berbasis website. Aplikasi Lonedry digunakan bagi para pengguna sebagai tempat memesan laundry yang masih merupakan bagian dari usaha Lonedry. Pada aplikasi ini pengguna dapat memilih pelayanan laundry apa yang ingin digunakan. Setelah itu pengguna akan mengisi identitas dan alamat pemesanan laundry. Pada aplikasi Lonedry ini pengguna juga mendapatkan E-nota yang digunakan sebagai bukti pengambilan laundry.
+Aplikasi Lonedry juga dilengkapi bagian dashboard admin untuk memanagement laundry yang dilakukan, jika laundry telah di selesai maka admin dapat mengubah status laundry menjadi “Done”. Hal ini memudahkan admin dalam mengecek transaksi laundry yang telah dilakukan pada aplikasi Lonedry. Pada bagian admin juga dapat dilakukan management terhadap data pelanggan untuk mengecek keakuratan customer yang menjadi pelanggan di Lonedry.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Built With
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* [Laravel](https://laravel.com/)
+* [Bootstrap](https://getbootstrap.com/)
 
-## Learning Laravel
+## Requirements
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<ul>
+    <li>Git</li>
+    <li>Composer</li>
+    <li>XAMPP</li>
+    <li>PHP 7.3+</li>
+    <li>Browser</li>
+</ul>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation
 
-## Laravel Sponsors
+1. Clone Project
+    ```sh 
+        git clone https://github.com/rellisapk/Lonedry
+    ```
+2. Install Composer on Project Directories
+    ```sh 
+        composer install
+    ```
+3. Set up the .env file
+    ```
+        Change Database (DB_DATABASE) name to your local database in XAMPP
+    ```
+4. Run php artisan key:generate on terminal
+    ```sh 
+        php artisan key:generate
+    ```
+5. Run php artisan migrate on terminal
+    ```sh 
+        php artisan migrate
+    ```
+6. Run php artisan serve on terminal
+    ```sh 
+        php artisan serve
+    ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Credits
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+| NPM           | Name        |
+| ------------- |-------------|
+| 140810190015  | Salsabila Karin |
+| 140810190017  | Saddam Habibi Utomo |
+| 140810190029  | Rellisa Puspa Kusuma |
+| 140810190049  | Anastasia Victoria Yuarsa |
 
 ## License
 
