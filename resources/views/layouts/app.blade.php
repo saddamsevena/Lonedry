@@ -61,6 +61,9 @@
             color: #FFFFFF;
             background-color: #608EE9;
         }
+        .footer {
+            margin-top: auto;
+        }
     @yield('css');
     </style>
 </head>
@@ -141,7 +144,7 @@
     </main>
 
     <!-- START FOOTER -->
-    <footer class="text-center text-lg-start bg-light">
+    <footer class="footer text-center text-lg-start bg-light">
         <div class="container text-md-start mt-5">
             <div class="row mt-3">
                 <!-- Logo -->
